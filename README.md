@@ -20,8 +20,23 @@ Práctica colaborativa de Git, GitHub y Visual Studio Community 2026 para la asi
 
 ## Ejecución de la API
 
-Pendiente de completar.
+1. Clonar el repositorio.
+2. Abrir la solución `TeamGitPractice` en Visual Studio Community 2026.
+3. Verificar que el proyecto utilice .NET 10.
+4. Ejecutar la aplicación con `Ctrl + F5`.
+5. Utilizar la URL local generada por ASP.NET Core para probar los endpoints.
 
 ## Endpoints
 
-Pendiente de completar.
+| Endpoint | Responsable | Descripción |
+|---|---|---|
+| GET /api/status | Juliana Arenas Arias | Estado de la API |
+| GET /api/status/team | Juliana Arenas Arias | Estado del equipo |
+| GET /api/members | Juan Andres Ramirez Castañeda | Lista de integrantes |
+| GET /api/members/count | Juan Andres Ramirez Castañeda | Cantidad de integrantes |
+| GET /api/version | Heyner Mena Campaña | Versión de la aplicación |
+| GET /api/version/platform | Heyner Mena Campaña | Plataforma del proyecto |
+| GET /api/health | Camilo Ospina Hernández | Estado de salud de la API |
+| GET /api/health/time | Camilo Ospina Hernández | Hora actual UTC |
+| GET /api/info | Oscar Alexis Pineda Henao | Información general de la práctica |
+| GET /api/info/tools | Oscar Alexis Pineda Henao | Herramientas utilizadas |
